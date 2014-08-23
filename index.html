@@ -7,9 +7,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <link href="/assets/ratchet-theme-ios.css" media="all" rel="stylesheet" />
+    <link href="/assets/ratchet-theme-ios.min.css" media="all" rel="stylesheet" />
     <link href="/assets/ratchet.css" media="all" rel="stylesheet" />
-    <script src="/assets/ratchet.js"></script>
+    <script src="/assets/ratchet.min.js"></script>
+	<script src="/assets/push.js"></script>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>		
@@ -19,7 +20,94 @@
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
 	<div class="content">
-	  <h4>This is the index page</h4>
+		<ul class="table-view">
+			  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>
+			  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>
+			  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>
+			  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>
+			  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>
+			  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>  <li class="table-view-cell media">
+			    <a class="navigate-right">
+			      <img class="media-object pull-left" src="http://placehold.it/42x42">
+			      <div class="media-body">
+			        Item 1
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+			      </div>
+			    </a>
+			  </li>
+			</ul>
 	</div>
 	<nav class="bar bar-tab">
 		<a class="tab-item" href="/breakfast.html" data-transition="fade">
@@ -39,7 +127,7 @@
 		  <span class="tab-label">Salads</span>
 		</a>	
 		<a class="tab-item" href="/sandwiches.html" data-transition="fade">
-			
+		  <!-- Yes, your database looks like a sandwich to me-->
 		  <i class="icon fa fa-database"></i>
 		  <span class="tab-label">Sandwiches</span>
 		</a>
